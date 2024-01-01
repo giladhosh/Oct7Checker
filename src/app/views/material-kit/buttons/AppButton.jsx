@@ -6,14 +6,14 @@ const AppButtonRoot = styled('div')(({ theme }) => ({
   [theme.breakpoints.down('sm')]: { margin: '16px' },
   '& .breadcrumb': {
     marginBottom: '30px',
-    [theme.breakpoints.down('sm')]: { marginBottom: '16px' },
+    [theme.breakpoints.down('sm')]: { marginBottom: '16px' }
   },
   '& .button': { margin: theme.spacing(1) },
-  '& .input': { display: 'none' },
+  '& .input': { display: 'none' }
 }));
 
 const StyledButton = styled(Button)(({ theme }) => ({
-  margin: theme.spacing(1),
+  margin: theme.spacing(1)
 }));
 
 export default function AppButton() {
